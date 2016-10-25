@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5128DDDD1DBF4D7300072827 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5128DDDC1DBF4D7300072827 /* main.m */; };
+		5128DDE01DBF4D7300072827 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5128DDDF1DBF4D7300072827 /* AppDelegate.m */; };
+		5128DDE31DBF4D7300072827 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5128DDE21DBF4D7300072827 /* ViewController.m */; };
+		5128DDE61DBF4D7300072827 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5128DDE41DBF4D7300072827 /* Main.storyboard */; };
+		5128DDE81DBF4D7300072827 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5128DDE71DBF4D7300072827 /* Assets.xcassets */; };
+		5128DDEB1DBF4D7300072827 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5128DDE91DBF4D7300072827 /* LaunchScreen.storyboard */; };
+		5128DDF61DBF4D7300072827 /* ShrofileVideosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5128DDF51DBF4D7300072827 /* ShrofileVideosTests.m */; };
+		5128DE011DBF4D7300072827 /* ShrofileVideosUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5128DE001DBF4D7300072827 /* ShrofileVideosUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5128DDF21DBF4D7300072827 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5128DDD01DBF4D7300072827 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5128DDD71DBF4D7300072827;
+			remoteInfo = ShrofileVideos;
+		};
+		5128DDFD1DBF4D7300072827 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5128DDD01DBF4D7300072827 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5128DDD71DBF4D7300072827;
+			remoteInfo = ShrofileVideos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5128DDD81DBF4D7300072827 /* ShrofileVideos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShrofileVideos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5128DDDC1DBF4D7300072827 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5128DDDE1DBF4D7300072827 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5128DDDF1DBF4D7300072827 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5128DDE11DBF4D7300072827 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5128DDE21DBF4D7300072827 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5128DDE51DBF4D7300072827 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5128DDE71DBF4D7300072827 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5128DDEA1DBF4D7300072827 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5128DDEC1DBF4D7300072827 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5128DDF11DBF4D7300072827 /* ShrofileVideosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShrofileVideosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5128DDF51DBF4D7300072827 /* ShrofileVideosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShrofileVideosTests.m; sourceTree = "<group>"; };
+		5128DDF71DBF4D7300072827 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5128DDFC1DBF4D7300072827 /* ShrofileVideosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShrofileVideosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5128DE001DBF4D7300072827 /* ShrofileVideosUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShrofileVideosUITests.m; sourceTree = "<group>"; };
+		5128DE021DBF4D7300072827 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5128DDD51DBF4D7300072827 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5128DDEE1DBF4D7300072827 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5128DDF91DBF4D7300072827 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5128DDCF1DBF4D7300072827 = {
+			isa = PBXGroup;
+			children = (
+				5128DDDA1DBF4D7300072827 /* ShrofileVideos */,
+				5128DDF41DBF4D7300072827 /* ShrofileVideosTests */,
+				5128DDFF1DBF4D7300072827 /* ShrofileVideosUITests */,
+				5128DDD91DBF4D7300072827 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5128DDD91DBF4D7300072827 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5128DDD81DBF4D7300072827 /* ShrofileVideos.app */,
+				5128DDF11DBF4D7300072827 /* ShrofileVideosTests.xctest */,
+				5128DDFC1DBF4D7300072827 /* ShrofileVideosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5128DDDA1DBF4D7300072827 /* ShrofileVideos */ = {
+			isa = PBXGroup;
+			children = (
+				5128DDDE1DBF4D7300072827 /* AppDelegate.h */,
+				5128DDDF1DBF4D7300072827 /* AppDelegate.m */,
+				5128DDE11DBF4D7300072827 /* ViewController.h */,
+				5128DDE21DBF4D7300072827 /* ViewController.m */,
+				5128DDE41DBF4D7300072827 /* Main.storyboard */,
+				5128DDE71DBF4D7300072827 /* Assets.xcassets */,
+				5128DDE91DBF4D7300072827 /* LaunchScreen.storyboard */,
+				5128DDEC1DBF4D7300072827 /* Info.plist */,
+				5128DDDB1DBF4D7300072827 /* Supporting Files */,
+			);
+			path = ShrofileVideos;
+			sourceTree = "<group>";
+		};
+		5128DDDB1DBF4D7300072827 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5128DDDC1DBF4D7300072827 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5128DDF41DBF4D7300072827 /* ShrofileVideosTests */ = {
+			isa = PBXGroup;
+			children = (
+				5128DDF51DBF4D7300072827 /* ShrofileVideosTests.m */,
+				5128DDF71DBF4D7300072827 /* Info.plist */,
+			);
+			path = ShrofileVideosTests;
+			sourceTree = "<group>";
+		};
+		5128DDFF1DBF4D7300072827 /* ShrofileVideosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5128DE001DBF4D7300072827 /* ShrofileVideosUITests.m */,
+				5128DE021DBF4D7300072827 /* Info.plist */,
+			);
+			path = ShrofileVideosUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5128DDD71DBF4D7300072827 /* ShrofileVideos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5128DE051DBF4D7300072827 /* Build configuration list for PBXNativeTarget "ShrofileVideos" */;
+			buildPhases = (
+				5128DDD41DBF4D7300072827 /* Sources */,
+				5128DDD51DBF4D7300072827 /* Frameworks */,
+				5128DDD61DBF4D7300072827 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShrofileVideos;
+			productName = ShrofileVideos;
+			productReference = 5128DDD81DBF4D7300072827 /* ShrofileVideos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5128DDF01DBF4D7300072827 /* ShrofileVideosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5128DE081DBF4D7300072827 /* Build configuration list for PBXNativeTarget "ShrofileVideosTests" */;
+			buildPhases = (
+				5128DDED1DBF4D7300072827 /* Sources */,
+				5128DDEE1DBF4D7300072827 /* Frameworks */,
+				5128DDEF1DBF4D7300072827 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5128DDF31DBF4D7300072827 /* PBXTargetDependency */,
+			);
+			name = ShrofileVideosTests;
+			productName = ShrofileVideosTests;
+			productReference = 5128DDF11DBF4D7300072827 /* ShrofileVideosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5128DDFB1DBF4D7300072827 /* ShrofileVideosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5128DE0B1DBF4D7300072827 /* Build configuration list for PBXNativeTarget "ShrofileVideosUITests" */;
+			buildPhases = (
+				5128DDF81DBF4D7300072827 /* Sources */,
+				5128DDF91DBF4D7300072827 /* Frameworks */,
+				5128DDFA1DBF4D7300072827 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5128DDFE1DBF4D7300072827 /* PBXTargetDependency */,
+			);
+			name = ShrofileVideosUITests;
+			productName = ShrofileVideosUITests;
+			productReference = 5128DDFC1DBF4D7300072827 /* ShrofileVideosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5128DDD01DBF4D7300072827 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = HMSL;
+				TargetAttributes = {
+					5128DDD71DBF4D7300072827 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = FSQ82U3PVN;
+						ProvisioningStyle = Automatic;
+					};
+					5128DDF01DBF4D7300072827 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = FSQ82U3PVN;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5128DDD71DBF4D7300072827;
+					};
+					5128DDFB1DBF4D7300072827 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = FSQ82U3PVN;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5128DDD71DBF4D7300072827;
+					};
+				};
+			};
+			buildConfigurationList = 5128DDD31DBF4D7300072827 /* Build configuration list for PBXProject "ShrofileVideos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5128DDCF1DBF4D7300072827;
+			productRefGroup = 5128DDD91DBF4D7300072827 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5128DDD71DBF4D7300072827 /* ShrofileVideos */,
+				5128DDF01DBF4D7300072827 /* ShrofileVideosTests */,
+				5128DDFB1DBF4D7300072827 /* ShrofileVideosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5128DDD61DBF4D7300072827 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5128DDEB1DBF4D7300072827 /* LaunchScreen.storyboard in Resources */,
+				5128DDE81DBF4D7300072827 /* Assets.xcassets in Resources */,
+				5128DDE61DBF4D7300072827 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5128DDEF1DBF4D7300072827 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5128DDFA1DBF4D7300072827 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5128DDD41DBF4D7300072827 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5128DDE31DBF4D7300072827 /* ViewController.m in Sources */,
+				5128DDE01DBF4D7300072827 /* AppDelegate.m in Sources */,
+				5128DDDD1DBF4D7300072827 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5128DDED1DBF4D7300072827 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5128DDF61DBF4D7300072827 /* ShrofileVideosTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5128DDF81DBF4D7300072827 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5128DE011DBF4D7300072827 /* ShrofileVideosUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5128DDF31DBF4D7300072827 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5128DDD71DBF4D7300072827 /* ShrofileVideos */;
+			targetProxy = 5128DDF21DBF4D7300072827 /* PBXContainerItemProxy */;
+		};
+		5128DDFE1DBF4D7300072827 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5128DDD71DBF4D7300072827 /* ShrofileVideos */;
+			targetProxy = 5128DDFD1DBF4D7300072827 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5128DDE41DBF4D7300072827 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5128DDE51DBF4D7300072827 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5128DDE91DBF4D7300072827 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5128DDEA1DBF4D7300072827 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5128DE031DBF4D7300072827 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5128DE041DBF4D7300072827 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5128DE061DBF4D7300072827 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FSQ82U3PVN;
+				INFOPLIST_FILE = ShrofileVideos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sweetpi.ShrofileVideos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5128DE071DBF4D7300072827 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FSQ82U3PVN;
+				INFOPLIST_FILE = ShrofileVideos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sweetpi.ShrofileVideos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5128DE091DBF4D7300072827 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = FSQ82U3PVN;
+				INFOPLIST_FILE = ShrofileVideosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sweetpi.ShrofileVideosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShrofileVideos.app/ShrofileVideos";
+			};
+			name = Debug;
+		};
+		5128DE0A1DBF4D7300072827 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = FSQ82U3PVN;
+				INFOPLIST_FILE = ShrofileVideosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sweetpi.ShrofileVideosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShrofileVideos.app/ShrofileVideos";
+			};
+			name = Release;
+		};
+		5128DE0C1DBF4D7300072827 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = FSQ82U3PVN;
+				INFOPLIST_FILE = ShrofileVideosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sweetpi.ShrofileVideosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ShrofileVideos;
+			};
+			name = Debug;
+		};
+		5128DE0D1DBF4D7300072827 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = FSQ82U3PVN;
+				INFOPLIST_FILE = ShrofileVideosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sweetpi.ShrofileVideosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ShrofileVideos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5128DDD31DBF4D7300072827 /* Build configuration list for PBXProject "ShrofileVideos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5128DE031DBF4D7300072827 /* Debug */,
+				5128DE041DBF4D7300072827 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5128DE051DBF4D7300072827 /* Build configuration list for PBXNativeTarget "ShrofileVideos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5128DE061DBF4D7300072827 /* Debug */,
+				5128DE071DBF4D7300072827 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5128DE081DBF4D7300072827 /* Build configuration list for PBXNativeTarget "ShrofileVideosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5128DE091DBF4D7300072827 /* Debug */,
+				5128DE0A1DBF4D7300072827 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5128DE0B1DBF4D7300072827 /* Build configuration list for PBXNativeTarget "ShrofileVideosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5128DE0C1DBF4D7300072827 /* Debug */,
+				5128DE0D1DBF4D7300072827 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5128DDD01DBF4D7300072827 /* Project object */;
+}
